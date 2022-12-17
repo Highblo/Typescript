@@ -69,3 +69,19 @@ val1 = 10; // OK
 
 // useState定義時におけるジェネリクスの利用
 // const [str, setStr] = useState<string>("");
+
+//typescriptのインストール方法
+// npm install -g typescript
+// tscコマンドが使えるようになる
+// tsc ファイル名 でjsにコンパイル
+
+//tsconfig.jsonファイルの作成
+// tsc --init
+// tscコマンドを打つだけで参照してくれる
+
+//コンパイラを使う方法
+
+//watchモードを使って保存時にTSからJSにコンパイル
+
+// tsc ファイル名 --watch
+// tsc ファイル名 -w
